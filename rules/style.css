@@ -1,0 +1,31 @@
+.nav-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: ease-in-out 0.5s all;
+}
+
+.nav-menu a:visited {
+  color: rgb(244, 0, 252);
+}
+
+.nav-menu a:hover {
+  color: #fff;
+}
+
+.nav-menu a:active {
+  color: rgb(255, 0, 0);
+  transition: ease-in-out 0.3s all;
+}
+
+.menu-bord {
+  background-color: black;
+  border-radius: 2em;
+  padding: 1em;
+}
