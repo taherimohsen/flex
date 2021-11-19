@@ -1,13 +1,30 @@
+body {
+  margin: auto;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3325;
+  position: sticky;
+  min-width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid gray;
+}
+
+.lable {
+  margin: 1em;
+}
+
 .nav-menu {
   display: flex;
-  list-style: none;
   justify-content: space-around;
-  align-items: center;
+  list-style: none;
 }
 
 a {
   text-decoration: none;
-  font-size: 1.5rem;
   transition: ease-in-out 0.5s all;
 }
 
@@ -28,4 +45,5 @@ a {
   background-color: black;
   border-radius: 2em;
   padding: 1em;
+  margin: 0 0.5rem;
 }
