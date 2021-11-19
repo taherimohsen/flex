@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
 }
 
-.header-menu {
+#header-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,6 @@ a {
 
 .nav-menu a:hover {
   color: #fff;
-  transform: scale(1.5);
 }
 
 .nav-menu a:active {
@@ -54,7 +53,7 @@ a {
   background-color: rgb(207, 232, 220);
   border: 2px solid rgb(79, 185, 227);
   padding: 1rem;
-  margin: 1rem;
+  margin: 3rem 1rem;
   border-radius: 0.5em;
 }
 
@@ -65,6 +64,11 @@ a {
   margin: 1rem;
   border-radius: 0.5rem;
   text-align: center;
+  transition: all ease-in-out 0.5s;
+}
+
+.cards:hover {
+  transform: scale(1.5);
 }
 
 .parents {
@@ -78,4 +82,43 @@ a {
   margin: 1rem;
   background-color: red;
   border-radius: 0.5rem;
+}
+
+#end-rules {
+  background-color: rgb(152, 134, 255);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 1rem;
+  margin: 3rem 1rem;
+  border-radius: 0.5em;
+}
+
+@media print {
+  #header-menu {
+    display: none;
+  }
+  #main-art {
+    margin: 0.5rem;
+  }
+  #end-rules {
+    margin: 0.5erm;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  #header-menu {
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-start: 0;
+  }
+  .parents {
+    margin: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+  #end-rules {
+    margin: 0.5erm;
+  }
 }
