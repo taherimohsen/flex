@@ -1,5 +1,6 @@
 body {
   margin: auto;
+  box-sizing: border-box;
 }
 
 .header-menu {
@@ -7,10 +8,9 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #3325;
-  position: sticky;
   min-width: 100%;
-  box-sizing: border-box;
   border-bottom: 1px solid gray;
+  box-shadow: coral;
 }
 
 .lable {
@@ -25,19 +25,21 @@ body {
 
 a {
   text-decoration: none;
-  transition: ease-in-out 0.5s all;
+  transition: all ease-in-out 0.5s;
+  color: rgb(0, 0, 0);
 }
 
 .nav-menu a:visited {
-  color: rgb(244, 0, 252);
+  color: rgb(187, 115, 48);
 }
 
 .nav-menu a:hover {
   color: #fff;
+  transform: scale(1.5);
 }
 
 .nav-menu a:active {
-  color: rgb(255, 0, 0);
+  color: rgb(21, 255, 0);
   transition: ease-in-out 0.3s all;
 }
 
@@ -46,4 +48,34 @@ a {
   border-radius: 2em;
   padding: 1em;
   margin: 0 0.5rem;
+}
+
+#main-art {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5em;
+}
+
+.cards {
+  background-color: rgb(215, 207, 232);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.parents {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.more {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: red;
+  border-radius: 0.5rem;
 }
