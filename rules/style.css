@@ -92,6 +92,13 @@ a {
   border-radius: 0.5em;
 }
 
+footer {
+  text-align: center;
+  background-color: chartreuse;
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
 @media print {
   #header-menu {
     display: none;
