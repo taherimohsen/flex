@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+body {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3325;
+  min-width: 100%;
+  border-bottom: 1px solid gray;
+  box-shadow: coral;
+}
+
+.lable {
+  margin: 1em;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all ease-in-out 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.nav-menu a:visited {
+  color: rgb(187, 115, 48);
+}
+
+.nav-menu a:hover {
+  color: #fff;
+}
+
+.nav-menu a:active {
+  color: rgb(21, 255, 0);
+  transition: ease-in-out 0.3s all;
+}
+
+.menu-bord {
+  background-color: black;
+  border-radius: 2em;
+  padding: 1em;
+  margin: 0 0.5rem;
+}
+
+#main-art {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 1rem;
+  margin: 3rem 1rem;
+  border-radius: 0.5em;
+}
+
+.cards {
+  background-color: rgb(215, 207, 232);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all ease-in-out 0.5s;
+}
+
+.cards:hover {
+  transform: scale(1.2);
+}
+
+.parents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+table {
+  width: 85%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 0.2em;
+}
+th {
+  border: 1px solid black;
+  border-radius: 0.2em;
+  background-color: rgb(5, 177, 48);
+}
+
+td:nth-child(even) {
+  background-color: red;
+  text-align: center;
+  border-radius: 0.2em;
+  border: 1px solid black;
+}
+
+td:nth-child(odd) {
+  background-color: white;
+  text-align: center;
+  border-radius: 0.2em;
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  background-color: chartreuse;
+  padding: 0.5em;
+  margin: 1em 0;
+}
