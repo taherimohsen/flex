@@ -68,14 +68,13 @@ a {
 }
 
 .cards:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 .parents {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .more {
@@ -89,16 +88,8 @@ a {
   background-color: rgb(152, 134, 255);
   border: 2px solid rgb(0, 0, 0);
   padding: 1rem;
-  align-items: center;
   margin: 3rem 1rem;
   border-radius: 0.5em;
-  display: flex;
-}
-
-#end-rules > .ol-line {
-    border-left: 1px solid black;
-    margin: 1em;
-    padding: 1em;
 }
 
 footer {
@@ -107,7 +98,6 @@ footer {
   padding: 0.5em;
   margin: 1em 0;
 }
-
 
 @media print {
   #header-menu {
@@ -118,10 +108,7 @@ footer {
   }
   #end-rules {
     margin: 0.5erm;
-    display: flex;
-    flex-direction: column;
   }
-
 }
 
 @media (min-width: 300px) and (max-width: 800px) {
