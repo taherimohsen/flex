@@ -68,14 +68,13 @@ a {
 }
 
 .cards:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 .parents {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .more {
@@ -99,7 +98,6 @@ footer {
   padding: 0.5em;
   margin: 1em 0;
 }
-
 
 @media print {
   #header-menu {
